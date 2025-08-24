@@ -1,0 +1,19 @@
+{
+  "name": "starxu-miner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CPU miner for StarXuToken",
+  "main": "starxu-miner.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "mine": "node -r dotenv/config starxu-miner.js",
+    "start": "npm run mine"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "web3": "^4.16.0"
+  }
+}
