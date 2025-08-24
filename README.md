@@ -11,7 +11,6 @@ A simple CPU miner for the StarXuToken contract. It continuously searches for a 
 ### Prerequisites
 - Node.js 18+ recommended
 - A funded account on the target network (native coin for gas and `MINE_FEE_WEI`)
-- Contract is deployed and accessible via your RPC
 
 ### Install
 ```bash
